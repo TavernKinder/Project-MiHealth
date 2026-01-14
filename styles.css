@@ -1,6 +1,70 @@
-.buzzword{
+:root {
+    --brand-red: #ce2020;
+    --brand-green: #8dc728;
+}
+/* Global styles */
+html, body{
+    padding:0;
+    margin:0;
+}
+body{
+    background-image: url('img/background.webp');
+}
+/* Header styles */
+header{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+a   {
+    text-decoration: none;
+}
+header nav{
+    align-items:right;
+    width:30%;
+}
+header nav a{
+    color:#333333;
+    padding-right: 8%; 
+}
+/* Logo Class styles */
+.logoRed{
+    color: var(--brand-red);
+}
+.logoGreen{
+    color: var(--brand-green);
+}
+/* Content Class styles */
+.menuContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 2%;
+}
+.introText{
+    width: 30%;
+    margin-bottom: 2%;
+}
+.recipieBox{
+    background-size: cover;
+    scale:fit;
+    width: 15%;
+    height: 200px;
 
 }
+.recipieBreakfast {
+    background-image: url('../img/apple-breakfast-quinoa-7.jpg');
+}
+.recipieLunch {
+    background-image: url('img/pasta-salad-recipe-for-lunch.jpg');
+}
+.recipieDinner {
+    background-image: url('img/Screenshot_208.jpg');
+}
+.buzzword{
+    background-color: white;
+}
 .meal{
-    
+    background-color: var(--brand-green);
 }
